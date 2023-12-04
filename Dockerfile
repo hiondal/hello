@@ -5,6 +5,7 @@ ENV APPNAME ${MAIN_APP}
 ENV USERNAME docker  
 ENV ARTIFACTORY_HOME /home/${USERNAME}
 
+
 # DON'T change USERNAME
 # Add a docker user, make work dir
 RUN adduser --disabled-password --gecos "" ${USERNAME} && \
